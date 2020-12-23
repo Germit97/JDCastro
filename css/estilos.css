@@ -1,0 +1,299 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 2s all;
+}
+
+:root {
+    --globalColor: #212F3C;
+}
+
+body {
+    background-color: var(--globalColor);
+    font-family: sans-serif;
+}
+
+article {
+    text-align: justify;
+}
+
+font {
+    color: var(--globalColor);
+    font-weight: bold;
+    
+}
+
+h1 {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+h2 {
+    color: #FFFFFF;   
+}
+
+h3 {
+    color: var(--globalColor);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.p-small {
+    color: #A0A0A0;
+    font-size: 12px;
+}
+
+header {
+    max-width: 816px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: var(--globalColor);
+    height: 235px;
+}
+
+#header-data {
+    display: flex;
+    justify-content: space-between
+}
+
+#basic-data {
+    color: #FFFFFF;
+}
+
+#basic-data p {
+    margin: 5px;
+}
+
+#my-photo {
+    line-height: 0;
+    background-color: #FFFFFF;
+    width: 230px;
+    padding: 10px;
+    border-radius: 100%;
+    transform: translateX(-50px);
+}
+
+#my-photo img {
+    width: 100%;
+    border-radius: 100%; 
+}
+
+main {
+    max-width: 816px;
+    margin: auto;
+    padding: 25px;
+    background-color: #FFFFFF;
+    height: 771px;
+    border-radius: 20px;
+    border-top-right-radius: 150px;
+}
+
+#information {
+    margin-top: 15px;
+    width: 100%;
+    height: 100%;;
+    display: flex;
+    justify-content: space-between;
+}
+
+.information-container {
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#divider {
+    width: 4px;
+}
+
+#divider div {
+    width: 4px;
+    height: 45%;
+    background-color: var(--globalColor);
+    border-radius: 2px;
+    margin-bottom: 35px;
+}
+
+#section-1 {
+    width: 60%;
+    margin-right: 25px;
+}
+
+.references-position {
+    display: flex;
+    width: 100%;
+}
+
+.references-position div:nth-child(1) {
+    width: 30%;
+    padding: 15px;
+}
+
+.references-position div:nth-child(2) {
+    width: 70%;
+}
+
+#section-2 {
+    width: 40%;
+    margin-left: 25px;
+}
+
+#language {
+    margin-top: 40px;
+}
+
+.measurer-1 {
+    width: 100%;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.measurer-2 {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.measurer-3 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.measurer-3 img {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+}
+
+.measurer-4 {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.measurer-4 div {
+    width: 50px;
+    height: auto;
+    text-align: center;
+}
+
+.measurer-4 img {
+    width: 80%;
+    height: auto;
+}
+
+.image-language {
+    width: 50px;
+    height: 50px;
+    line-height: 0;
+    padding: 2px;
+    background-color: var(--globalColor);
+    border-radius: 100%;
+}
+
+.image-language img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.image-software {
+    width: 50px;
+    height: 50px;
+    line-height: 0;
+}
+
+.image-software img {
+    width: 100%;
+    height: 100%;
+}
+
+.levels {
+    width: calc(100% - 50px);
+    margin-left: 15px;
+}
+
+.levels p {
+    margin-top: 5px;
+}
+
+.bar {
+    margin-top: 3px;
+    width: 100%;
+    height: 15px;
+    border: 2px solid var(--globalColor);;
+    border-radius: 7px;
+    padding: 2px;
+}
+    
+.bar div {
+    height: 100%;
+    background-color: var(--globalColor);;
+    border-radius: 15px;
+}
+
+
+
+#spanish-Level .levels .bar div {
+    width: 100%
+}
+
+#english-Level .levels .bar div {
+    width: 40%
+}
+
+
+
+#team-level .bar div {
+    width: 60%
+}
+
+#web-level .bar div {
+    width: 80%
+}
+
+#software-level .bar div {
+    width: 50%
+}
+
+#photoshop-level .bar div {
+    width: 40%
+}
+
+#database-level .bar div {
+    width: 60%
+}
+
+#animation-level .bar div {
+    width: 30%
+}
+    
+footer {
+    max-width: 816px;
+    margin: auto;
+    background-color: var(--globalColor);;
+    height: 35px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+footer p {
+    color: #FFFFFF;
+}
+
+@media print {
+    header {
+        max-width: 816px;
+    }
+    main {
+        max-width: 816px;
+    }
+    footer {
+        max-width: 816px;
+    }
+}
